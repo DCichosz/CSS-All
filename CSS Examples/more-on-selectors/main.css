@@ -18,6 +18,11 @@ a.active {
     color: #521751
 }
 
+/* wszystkie a, ktore nie maja klasy active */
+a:not(.active) {
+    color: blue;
+}
+
 .main-section {
     height: 800px;
     border: 1px solid #ccc;
